@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const { Telegraf } = require('telegraf');
 const connectDB = require('./src/db');
